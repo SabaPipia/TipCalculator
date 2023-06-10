@@ -1,0 +1,45 @@
+@import "../../variables/variables.sass";
+
+.tipButton {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+  .tipBtn {
+    cursor: pointer;
+    width: 95px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    color: $white;
+    background-color: $veryDarkCyan;
+    border: none;
+    border-radius: 7px;
+    &:last-child {
+      background-color: $white;
+      color: $veryDarkCyan;
+      font-size: 18px;
+      width: 93px;
+      height: 47px;
+      padding: 3px;
+    }
+    &:focus {
+      outline: none;
+      outline: 2px solid $veryDarkCyan;
+    }
+    &:active,
+    &:hover {
+      outline: none;
+      color: $veryDarkCyan;
+      background-color: $primaryColor;
+    }
+  }
+  .selected {
+    background-color: $primaryColor;
+    color: $veryDarkCyan;
+    &:focus {
+      outline: none;
+    }
+  }
+}

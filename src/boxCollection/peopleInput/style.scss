@@ -1,0 +1,17 @@
+@import "../../variables/variables.sass";
+
+.peopleField {
+  .peopleLabel {
+    color: $darkGrayishCyan;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .input {
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    direction: rtl;
+    color: $veryDarkCyan;
+    font-family: $family;
+  }
+}

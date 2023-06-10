@@ -1,0 +1,12 @@
+@import "../../variables/variables.sass";
+
+.wrapperContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 150px auto;
+  width: 750px;
+  background-color: $veryLightGrayishCyan;
+  padding: 25px;
+  border-radius: 30px;
+  gap: 70px;
+}

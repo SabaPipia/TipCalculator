@@ -1,0 +1,10 @@
+@import "../../variables/variables.sass";
+
+.tipField {
+  margin-bottom: 23px;
+  .tipLabel {
+    color: $darkGrayishCyan;
+    display: block;
+    margin-bottom: 5px;
+  }
+}

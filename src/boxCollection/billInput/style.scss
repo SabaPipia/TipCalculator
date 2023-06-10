@@ -1,0 +1,19 @@
+@import "../../variables/variables.sass";
+
+.billInput {
+  margin-bottom: 23px;
+  .billLabel {
+    display: block;
+    color: $darkGrayishCyan;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  .input {
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    direction: rtl;
+    color: $veryDarkCyan;
+    font-family: $family;
+  }
+}
